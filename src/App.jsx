@@ -48,7 +48,7 @@ const App = () => {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/" element={<Home />} />
+          <Route path="https://job-zee-frontend-aikz2xo75-ayush-00010s-projects.vercel.app/" element={<Home />} />
           <Route path="/job/getall" element={<Jobs />} />
           <Route path="/job/:id" element={<JobDetails />} />
           <Route path="/application/:id" element={<Application />} />
