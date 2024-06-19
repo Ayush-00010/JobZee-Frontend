@@ -38,7 +38,7 @@ const Login = () => {
   };
 
   if (isAuthorized) {
-    return <Navigate to={"/"} />;
+    return <Navigate to={"https://jobzee-backend-d7ku.onrender.com/"} />;
   }
 
   return (
